@@ -1,0 +1,853 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>learning site</title>
+    <link rel="stylesheet" href="styles/bootstrap.rtl.min.css" />
+    <link rel="stylesheet" href="styles/icons/bootstrap-icons.min.css" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- header -->
+    <header class="header">
+      <!-- navbar -->
+      <nav
+        style="background-color: #f2f5fc"
+        class="navbar navbar-expand-md fixed-top"
+      >
+        <div class="container">
+          <a class="navbar-brand lalezar" href="#">نکست وان لرن</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasNavbar"
+            aria-controls="offcanvasNavbar"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="offcanvas offcanvas-start"
+            tabindex="-1"
+            id="offcanvasNavbar"
+            aria-labelledby="offcanvasNavbarLabel"
+          >
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title lalezar" id="offcanvasNavbarLabel">
+                نکست وان لرن
+              </h5>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a
+                    id="angle"
+                    class="nav-link text-dark"
+                    href="#collapseExample"
+                    role="button"
+                    data-bs-toggle="collapse"
+                    aria-expanded="false"
+                  >
+                    <i
+                      class="fa-solid fa-graduation-cap fs-5 d-md-none me-2"
+                    ></i>
+                    <span> دوره های اموزشی </span>
+                    <i class="fa-solid fa-angle-down"></i>
+                  </a>
+                  <div id="collapseExample" class="collapse position-md-fixed">
+                    <div class="course-list shadow-sm">
+                      <div class="course-list-item">
+                        <i class="fa-brands fs-3 text-primary fa-python"></i>
+                        <span class="fw-bold mx-3">دوره متخصص پایتون</span>
+                      </div>
+                      <div class="course-list-item">
+                        <i class="fa-brands fs-3 text-primary fa-react"></i>
+                        <span class="fw-bold mx-3">دوره متخصص ریکت</span>
+                      </div>
+                      <div class="course-list-item">
+                        <i class="fa-brands fs-3 text-primary fa-angular"></i>
+                        <span class="fw-bold mx-3">دوره متخصص انگولار</span>
+                      </div>
+                      <div class="course-list-item">
+                        <i class="fa-brands fs-3 text-primary fa-vuejs"></i>
+                        <span class="fw-bold mx-3">دوره متخصص ویو</span>
+                      </div>
+                      <div class="course-list-item">
+                        <i class="fa-brands fs-3 text-primary fa-js"></i>
+                        <span class="fw-bold mx-3"
+                          >دوره متخصص جاوا اسکریپت</span
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link text-dark active"
+                    aria-current="page"
+                    href="#"
+                  >
+                    <i class="fa-solid fa-house fs-5 d-md-none me-2"></i>
+                    <span>صفحه اصلی</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-dark" href="#">
+                    <i class="fa-solid fa-phone fs-5 d-md-none me-2"></i>
+                    <span>تماس با ما</span>
+                  </a>
+                </li>
+                <li class="nav-item d-md-none my-2">
+                  <hr />
+                  <p>نکست وان لرن در<b> شبکه‌های اجتماعی</b></p>
+                  <div class="row fs-1 w-75">
+                    <div class="col">
+                      <i class="fa-brands fa-linkedin"></i>
+                    </div>
+                    <div class="col">
+                      <i class="fa-brands fa-facebook"></i>
+                    </div>
+                    <div class="col">
+                      <i class="fa-brands fa-telegram"></i>
+                    </div>
+                    <div class="col">
+                      <i class="fa-brands fa-youtube"></i>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <!-- intro -->
+      <section class="mt-5 py-5">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-md-5">
+              <h3 class="lalezar fs-1">
+                آموزش برنامه نویسی با مدرسان با تجربه
+              </h3>
+              <p class="my-5">
+                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+                استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله
+                در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد
+                نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد.
+              </p>
+              <button class="btn btn-primary rounded-pill px-4 my-3">
+                دوره‌های آموزشی
+              </button>
+              <button class="btn btn-outline-primary rounded-pill px-4">
+                نظریات دانشجویان
+              </button>
+            </div>
+            <div class="col-md-6 offset-md-1">
+              <img src="images/header-intro.png" class="img-fluid" />
+            </div>
+          </div>
+        </div>
+      </section>
+    </header>
+
+    <!-- can everyone -->
+    <section>
+      <div class="container py-5">
+        <div class="row align-items-center gy-5">
+          <div class="col-md-6">
+            <img src="images/caneveryone.jpg" class="img-fluid" />
+          </div>
+          <div class="col-md-6">
+            <h3 class="fw-bold mb-4">آیا همه میتونن برنامه نویسی یاد بگیرن؟</h3>
+            <p>
+              لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+              استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در
+              ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- course -->
+    <section>
+      <div class="container py-5">
+        <h2 class="lalezar text-center py-2">دوره های آموزشی</h2>
+        <p class="text-center mb-5 text-secondary">
+          لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ
+        </p>
+        <div class="row g-3 px-2 row-cols-1 row-cols-sm-2 row-cols-lg-3">
+          <div class="col px-3">
+            <div class="card " data-aos="zoom-in">
+              <img src="images/javascript.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title fw-bold py-2">دوره جاوا اسکریپت</h5>
+                <p class="py-1">
+                  لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+                  استفاده از طراحان گرافیک است
+                </p>
+                <div
+                  class="px-2 d-flex align-items-center justify-content-between"
+                >
+                  <a href="#" class="btn btn-primary">خرید دوره</a>
+                  <span class="text-muted">1,499,000</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col px-3">
+            <div class="card " data-aos="zoom-in">
+              <img src="images/rwd.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title fw-bold py-2">دوره جاوا اسکریپت</h5>
+                <p class="py-1">
+                  لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+                  استفاده از طراحان گرافیک است
+                </p>
+                <div
+                  class="px-2 d-flex align-items-center justify-content-between"
+                >
+                  <a href="#" class="btn btn-primary">خرید دوره</a>
+                  <span class="text-muted">1,199,000</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col px-3">
+            <div class="card " data-aos="zoom-in">
+              <img src="images/bootstrap.png" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title fw-bold py-2">دوره جاوا اسکریپت</h5>
+                <p class="py-1">
+                  لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+                  استفاده از طراحان گرافیک است
+                </p>
+                <div
+                  class="px-2 d-flex align-items-center justify-content-between"
+                >
+                  <a href="#" class="btn btn-primary">خرید دوره</a>
+                  <span class="text-muted">1,000,000</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- counters -->
+    <section class="py-5 px-3">
+      <div class="container">
+        <h2 class="lalezar text-center">آمارها باعث افتخار ما هستند</h2>
+        <p class="text-center py-3">
+          ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ
+        </p>
+        <div
+          class="row gy-4 text-center fs-1 py-4 row-cols-1 row-cols-sm-2 row-cols-lg-4"
+        >
+          <div class="col">
+            <div class="shadow rounded-3 p-3 mx-2">
+              <span
+                class="purecounter"
+                data-purecounter-start="0"
+                data-purecounter-end="5000"
+                >0</span
+              >
+              <h5 class="mt-2">دانشجو</h5>
+            </div>
+          </div>
+          <div class="col">
+            <div class="shadow rounded-3 p-3 mx-2">
+              <span
+                class="purecounter"
+                data-purecounter-start="0"
+                data-purecounter-end="7500"
+                >0</span
+              >
+              <h5 class="mt-2">دقیقه آموزش</h5>
+            </div>
+          </div>
+          <div class="col">
+            <div class="shadow rounded-3 p-3 mx-2">
+              <span
+                class="purecounter"
+                data-purecounter-start="0"
+                data-purecounter-end="100"
+                >0</span
+              >
+              <h5 class="mt-2">دوره آموزشی</h5>
+            </div>
+          </div>
+          <div class="col">
+            <div class="shadow rounded-3 p-3 mx-2">
+              <span
+                class="purecounter"
+                data-purecounter-start="0"
+                data-purecounter-end="20"
+                >0</span
+              >
+              <h5 class="mt-2">سال تجربه</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="px-3">
+      <div class="container">
+        <h2 class="lalezar text-center">سوالات متداول</h2>
+        <p class="text-center py-3">
+          ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ
+        </p>
+        <div class="row align-items-center">
+          <div class="div col-lg-6">
+            <img src="images/faq.png" class="img-fluid" />
+          </div>
+          <div class="div col-lg-6">
+            <div class="accordion" id="accordionExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseOne"
+                    aria-expanded="true"
+                    aria-controls="collapseOne"
+                  >
+                    متن سوال اول
+                  </button>
+                </h2>
+                <div
+                  id="collapseOne"
+                  class="accordion-collapse collapse show"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body">
+                    <p>
+                      لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ،
+                      و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه
+                      روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای
+                      شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف
+                      بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه
+                      درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می
+                      طلبد، تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه
+                      ای علی الخصوص طراحان خلاقی، و فرهنگ پیشرو در زبان فارسی
+                      ایجاد کرد
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseTwo"
+                    aria-expanded="false"
+                    aria-controls="collapseTwo"
+                  >
+                    متن سوال دوم
+                  </button>
+                </h2>
+                <div
+                  id="collapseTwo"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body">
+                    <p>
+                      لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ،
+                      و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه
+                      روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای
+                      شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف
+                      بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه
+                      درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می
+                      طلبد، تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه
+                      ای علی الخصوص طراحان خلاقی، و فرهنگ پیشرو در زبان فارسی
+                      ایجاد کرد
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseThree"
+                    aria-expanded="false"
+                    aria-controls="collapseThree"
+                  >
+                    متن سوال سوم
+                  </button>
+                </h2>
+                <div
+                  id="collapseThree"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body">
+                    <p>
+                      لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ،
+                      و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه
+                      روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای
+                      شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف
+                      بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه
+                      درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می
+                      طلبد، تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه
+                      ای علی الخصوص طراحان خلاقی، و فرهنگ پیشرو در زبان فارسی
+                      ایجاد کرد
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseFour"
+                    aria-expanded="false"
+                    aria-controls="collapseFour"
+                  >
+                    متن سوال چهارم
+                  </button>
+                </h2>
+                <div
+                  id="collapseFour"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body">
+                    <p>
+                      لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ،
+                      و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه
+                      روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای
+                      شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف
+                      بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه
+                      درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می
+                      طلبد، تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه
+                      ای علی الخصوص طراحان خلاقی، و فرهنگ پیشرو در زبان فارسی
+                      ایجاد کرد
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseFive"
+                    aria-expanded="false"
+                    aria-controls="collapseFive"
+                  >
+                    متن سوال پنجم
+                  </button>
+                </h2>
+                <div
+                  id="collapseFive"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body">
+                    <p>
+                      لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ،
+                      و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه
+                      روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای
+                      شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف
+                      بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه
+                      درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می
+                      طلبد، تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه
+                      ای علی الخصوص طراحان خلاقی، و فرهنگ پیشرو در زبان فارسی
+                      ایجاد کرد
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseSix"
+                    aria-expanded="false"
+                    aria-controls="collapseSix"
+                  >
+                    متن سوال ششم
+                  </button>
+                </h2>
+                <div
+                  id="collapseSix"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body">
+                    <p>
+                      لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ،
+                      و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه
+                      روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای
+                      شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف
+                      بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه
+                      درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می
+                      طلبد، تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه
+                      ای علی الخصوص طراحان خلاقی، و فرهنگ پیشرو در زبان فارسی
+                      ایجاد کرد
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--services  -->
+    <section class="py-5 px-3">
+      <div class="container">
+        <h2 class="lalezar text-center">خدمات</h2>
+        <p class="text-center py-3">
+          ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ
+        </p>
+        <div class="row gy-4">
+          <div class="col-md-6 col-lg-4" data-aos="zoom-in>
+            <div
+              class="servic-box border-primary shadow rounded-3 p-5 text-center"
+            >
+              <i class="fa fa-coffee display-2"></i>
+              <h3 class="m-3">لورم ایپسون</h3>
+              <p class="mb-5">لورم ایپسون نامفهوم از صنعت چاپ</p>
+              <a
+                href=""
+                class="read-more text-primary text-decoration-none d-flex align-items-center justify-content-center"
+              >
+                <span>مشاهده بیشتر</span>
+                <i class="fa fa-caret-left fs-4 ms-2"></i>
+              </a>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4" data-aos="zoom-in>
+            <div
+              class="servic-box border-success shadow rounded-3 p-5 text-center"
+            >
+              <i class="fa fa-bar-chart-o display-2"></i>
+              <h3 class="m-3">لورم ایپسون</h3>
+              <p class="mb-5">لورم ایپسون نامفهوم از صنعت چاپ</p>
+              <a
+                href=""
+                class="read-more text-success text-decoration-none d-flex align-items-center justify-content-center"
+              >
+                <span>مشاهده بیشتر</span>
+                <i class="fa fa-caret-left fs-4 ms-2"></i>
+              </a>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4" data-aos="zoom-in>
+            <div
+              class="servic-box border-warning shadow rounded-3 p-5 text-center"
+            >
+              <i class="fas fa-business-time display-2"></i>
+              <h3 class="m-3">لورم ایپسون</h3>
+              <p class="mb-5">لورم ایپسون نامفهوم از صنعت چاپ</p>
+              <a
+                href=""
+                class="read-more text-warning text-decoration-none d-flex align-items-center justify-content-center"
+              >
+                <span>مشاهده بیشتر</span>
+                <i class="fa fa-caret-left fs-4 ms-2"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- prices -->
+    <section class="py-5 px-3">
+      <div class="container">
+        <h2 class="lalezar text-center"> پلن ها</h2>
+        <p class="text-center py-3">
+          ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ
+        </p>
+        <div
+          class="row row-cols-1 row-cols-md-2 row-cols-lg-4 gy-4 text-center"
+        >
+          <div class="col  data-aos="zoom-in>
+            <div class="card box-scale" rounded shadow">
+              <div class="card-body">
+                <h5 class="fw-bold fs-4 p-3">پلن رایگان</h5>
+                <p
+                  class="card-text fw-bold border-bottom border-2 border-secondary pb-2"
+                >
+                  0 <sup class="text-danger">تومان</sup>/ در ماه
+                </p>
+                <img src="images/pricing1.png" class="img-fluid" />
+                <ul class="list-group list-group-flush p-3">
+                  <li
+                    class="list-group-item bg-info bg-opacity-25 rounded-top d-flex align-items-center justify-content-start"
+                  >
+                    <i class="fas fa-check-square text-info"></i>
+                    <span class="px-3">ویژگی اول پلن</span>
+                  </li>
+                  <li
+                    class="list-group-item bg-info bg-opacity-25 d-flex align-items-center justify-content-start"
+                  >
+                    <i class="fas fa-check-square text-info"></i>
+                    <span class="px-3">ویژگی دوم پلن</span>
+                  </li>
+                  <li
+                    class="list-group-item bg-info bg-opacity-25 d-flex align-items-center justify-content-start"
+                  >
+                    <i class="fas fa-check-square text-info"></i>
+                    <span class="px-3">ویژگی سوم پلن</span>
+                  </li>
+                  <li
+                    class="list-group-item bg-info bg-opacity-25 rounded-bottom d-flex align-items-center justify-content-start"
+                  >
+                    <i class="fas fa-check-square text-info"></i>
+                    <span class="px-3">ویژگی چهارم پلن</span>
+                  </li>
+                </ul>
+                <button class="btn w-100 btn-outline-info">خرید پلن</button>
+              </div>
+            </div>
+          </div>
+          <div class="col" data-aos="zoom-in>
+            <div class="card rounded box-scale" shadow">
+              <div class="card-body">
+                <h5 class="fw-bold fs-4 p-3">پلن برنزه</h5>
+                <p
+                  class="card-text fw-bold border-bottom border-2 border-secondary pb-2"
+                >
+                  299 <sup class="text-danger">تومان</sup>/ در ماه
+                </p>
+                <img src="images/pricing2.png" class="img-fluid" />
+                <ul class="list-group list-group-flush p-3">
+                  <li
+                    class="list-group-item bg-success bg-opacity-25 rounded-top d-flex align-items-center justify-content-start"
+                  >
+                    <i class="fas fa-check-square text-success"></i>
+                    <span class="px-3">ویژگی اول پلن</span>
+                  </li>
+                  <li
+                    class="list-group-item bg-success bg-opacity-25 d-flex align-items-center justify-content-start"
+                  >
+                    <i class="fas fa-check-square text-success"></i>
+                    <span class="px-3">ویژگی دوم پلن</span>
+                  </li>
+                  <li
+                    class="list-group-item bg-success bg-opacity-25 d-flex align-items-center justify-content-start"
+                  >
+                    <i class="fas fa-check-square text-success"></i>
+                    <span class="px-3">ویژگی سوم پلن</span>
+                  </li>
+                  <li
+                    class="list-group-item bg-success bg-opacity-25 rounded-bottom d-flex align-items-center justify-content-start"
+                  >
+                    <i class="fas fa-check-square text-success"></i>
+                    <span class="px-3">ویژگی چهارم پلن</span>
+                  </li>
+                </ul>
+                <button class="btn w-100 btn-outline-success">خرید پلن</button>
+              </div>
+            </div>
+          </div>
+          <div class="col" data-aos="zoom-in">
+            <div class="card rounded box-scale" shadow">
+              <div class="card-body">
+                <h5 class="fw-bold fs-4 p-3">پلن نقره‌ای</h5>
+                <p
+                  class="card-text fw-bold border-bottom border-2 border-secondary pb-2"
+                >
+                  999 <sup class="text-danger">تومان</sup>/ در ماه
+                </p>
+                <img src="images/pricing4.png" class="img-fluid" />
+                <ul class="list-group list-group-flush p-3">
+                  <li
+                    class="list-group-item bg-danger bg-opacity-25 rounded-top d-flex align-items-center justify-content-start"
+                  >
+                    <i class="fas fa-check-square text-danger"></i>
+                    <span class="px-3">ویژگی اول پلن</span>
+                  </li>
+                  <li
+                    class="list-group-item bg-danger bg-opacity-25 d-flex align-items-center justify-content-start"
+                  >
+                    <i class="fas fa-check-square text-danger"></i>
+                    <span class="px-3">ویژگی دوم پلن</span>
+                  </li>
+                  <li
+                    class="list-group-item bg-danger bg-opacity-25 d-flex align-items-center justify-content-start"
+                  >
+                    <i class="fas fa-check-square text-danger"></i>
+                    <span class="px-3">ویژگی سوم پلن</span>
+                  </li>
+                  <li
+                    class="list-group-item bg-danger bg-opacity-25 rounded-bottom d-flex align-items-center justify-content-start"
+                  >
+                    <i class="fas fa-check-square text-danger"></i>
+                    <span class="px-3">ویژگی چهارم پلن</span>
+                  </li>
+                </ul>
+                <button class="btn w-100 btn-outline-danger">خرید پلن</button>
+              </div>
+            </div>
+          </div>
+          <div class="col" data-aos="zoom-in">
+            <div class="card rounded box-scale" shadow">
+              <div class="card-body">
+                <h5 class="fw-bold fs-4 p-3">پلن طلایی</h5>
+                <p
+                  class="card-text fw-bold border-bottom border-2 border-secondary pb-2"
+                >
+                  499 <sup class="text-danger">تومان</sup>/ در ماه
+                </p>
+                <img src="images/pricing3.png" class="img-fluid" />
+                <ul class="list-group list-group-flush p-3">
+                  <li
+                    class="list-group-item bg-warning bg-opacity-25 rounded-top d-flex align-items-center justify-content-start"
+                  >
+                    <i class="fas fa-check-square text-warning"></i>
+                    <span class="px-3">ویژگی اول پلن</span>
+                  </li>
+                  <li
+                    class="list-group-item bg-warning bg-opacity-25 d-flex align-items-center justify-content-start"
+                  >
+                    <i class="fas fa-check-square text-warning"></i>
+                    <span class="px-3">ویژگی دوم پلن</span>
+                  </li>
+                  <li
+                    class="list-group-item bg-warning bg-opacity-25 d-flex align-items-center justify-content-start"
+                  >
+                    <i class="fas fa-check-square text-warning"></i>
+                    <span class="px-3">ویژگی سوم پلن</span>
+                  </li>
+                  <li
+                    class="list-group-item bg-warning bg-opacity-25 rounded-bottom d-flex align-items-center justify-content-start"
+                  >
+                    <i class="fas fa-check-square text-warning"></i>
+                    <span class="px-3">ویژگی چهارم پلن</span>
+                  </li>
+                </ul>
+                <button class="btn w-100 btn-outline-warning">خرید پلن</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- footer wave -->
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#f2f5fc" fill-opacity="1" d="M0,256L60,218.7C120,181,240,107,360,96C480,85,600,139,720,170.7C840,203,960,213,1080,186.7C1200,160,1320,96,1380,64L1440,32L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path></svg>
+    <!-- footer -->
+    <section class=" ">
+      <div class="footer px-5 pb-3">
+        <div class="row gy-4 align-items-center">
+          <div class="col-lg-5 text-lg-center">
+            <h2 class="lalezar ">سوالات متداول</h2>
+            <p class=" py-3">
+              ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ
+            </p>
+          </div>
+          <div class="col-lg-2 offset-lg-1">
+            <h4 class=" fw-bold border-bottom border-3 border-warning w-50 pb-2">لینک‌ها</h4>
+            <ul class="list-unstyled">
+              <li class="d-flex align-items-center p-1">
+                <i class="fa fa-caret-left"></i>
+                <span class="ps-2">صفحه اصلی</span>
+              </li>
+              <li class="d-flex align-items-center p-1">
+                <i class="fa fa-caret-left"></i>
+                <span class="ps-2">محصولات</span>
+              </li>
+              <li class="d-flex align-items-center p-1">
+                <i class="fa fa-caret-left"></i>
+                <span class="ps-2">خدمات</span>
+              </li>
+              <li class="d-flex align-items-center p-1">
+                <i class="fa fa-caret-left"></i>
+                <span class="ps-2">درباره ما</span>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-2 ">
+            <h4 class=" fw-bold border-bottom border-3 border-success w-50 pb-2">لینک‌ها</h4>
+            <ul class="list-unstyled" >
+              <li class="d-flex align-items-center p-1">
+                <i class="fa fa-caret-left"></i>
+                <span class="ps-2">صفحه اصلی</span>
+              </li>
+              <li class="d-flex align-items-center p-1">
+                <i class="fa fa-caret-left"></i>
+                <span class="ps-2">محصولات</span>
+              </li>
+              <li class="d-flex align-items-center p-1">
+                <i class="fa fa-caret-left"></i>
+                <span class="ps-2">خدمات</span>
+              </li>
+              <li class="d-flex align-items-center p-1">
+                <i class="fa fa-caret-left"></i>
+                <span class="ps-2">درباره ما</span>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-2 ">
+            <h4 class=" fw-bold border-bottom border-3 border-info w-50 pb-2">لینک‌ها</h4>
+            <ul class="list-unstyled">
+              <li class="d-flex align-items-center p-1">
+                <i class="fa fa-caret-left"></i>
+                <span class="ps-2">صفحه اصلی</span>
+              </li>
+              <li class="d-flex align-items-center p-1">
+                <i class="fa fa-caret-left"></i>
+                <span class="ps-2">محصولات</span>
+              </li>
+              <li class="d-flex align-items-center p-1">
+                <i class="fa fa-caret-left"></i>
+                <span class="ps-2">خدمات</span>
+              </li>
+              <li class="d-flex align-items-center p-1">
+                <i class="fa fa-caret-left"></i>
+                <span class="ps-2">درباره ما</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+    
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script
+      src="https://kit.fontawesome.com/50279c4b79.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <!-- purecounter js -->
+    <script src="https://cdn.jsdelivr.net/npm/@srexi/purecounterjs/dist/purecounter_vanilla.js"></script>
+    <script>
+      new PureCounter();
+    </script>
+  </body>
+</html>

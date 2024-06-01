@@ -1,0 +1,87 @@
+/* fonts */
+@font-face {
+  font-family: vazir;
+  src: url(../fonts/Vazir.ttf);
+}
+@font-face {
+  font-family: lalezar;
+  src: url(../fonts/Lalezar-Regular.ttf);
+}
+body {
+  font-family: "vazir", sans-serif;
+  font-size: 1rem;
+}
+.header {
+  background: url(../images/header-bg.png) top center no-repeat;
+  background-size: cover;
+}
+.lalezar {
+  font-family: lalezar;
+}
+@media (min-width: 768px) {
+  .position-md-fixed {
+    position: fixed;
+  }
+}
+.course-list {
+  width: 300px;
+  padding: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: #fff;
+}
+.course-list-item {
+  padding: 10px 15px;
+  display: flex;
+}
+.course-list-item:hover {
+  background-color: rgb(240, 240, 240);
+}
+.card-hover:hover {
+  transform: translateY(-1px);
+}
+.servic-box {
+  border-bottom: 4px groove;
+  box-shadow: 0 0 5px rgb(40, 39, 39);
+}
+
+.servic-box:hover {
+  color: #fff !important;
+}
+.servic-box:hover .display-2 {
+  color: #fff !important;
+}
+.servic-box:hover .read-more {
+  color: #fff !important;
+}
+.fa-coffee {
+  color: #0d6efd;
+}
+.fa-bar-chart-o {
+  color: #198754;
+}
+.fa-business-time {
+  color: #ffc107;
+}
+
+.servic-box.border-primary:hover {
+  background-color: #0d6efd;
+}
+.servic-box.border-success:hover {
+  background-color: #198754;
+}
+.servic-box.border-warning:hover {
+  background-color: #ffc107;
+}
+.footer {
+  background-color: #f2f5fc;
+}
+.box-scale {
+  transition: all 0.3s;
+  border: 0;
+  box-shadow: 0 0 5px rgb(40, 39, 39);
+}
+.box-scale:hover {
+  transform: scale(1.02);
+  box-shadow: none;
+}
